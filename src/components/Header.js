@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/header.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight  } from '@fortawesome/free-solid-svg-icons';
+
 
 function Header({ h1Class, heading, num, leftItemLink, leftItem, rightItem, }) {
 
